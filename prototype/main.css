@@ -1,0 +1,51 @@
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@import url(./desktop.css);
+@import url(./tablet.css);
+@import url(./mobile.css);
+
+@font-face {
+    font-family: FiraSans-Regular;
+    src: url(./fonts/FiraSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: FiraSans-Light;
+    src: url(./fonts/FiraSans-Light.ttf);
+}
+
+@font-face {
+    font-family: FiraSans-Medium;
+    src: url(./fonts/FiraSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: FiraCode-Regular;
+    src: url(./fonts/FiraCode-Regular.ttf);
+}
+
+@font-face {
+    font-family: FiraCode-Medium;
+    src: url(./fonts/FiraCode-Medium.ttf);
+}
+
+@font-face {
+    font-family: FiraCode-Light;
+    src: url(./fonts/FiraCode-Light.ttf);
+}
+
+
+
+ 
+
+
+
+
+
+
+

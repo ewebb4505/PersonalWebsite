@@ -1,0 +1,226 @@
+@media all and (min-width: 1280px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    
+    #wrapper {
+        min-height: 100vh;
+        min-width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .right-side-content {
+        order: 3;
+        width: 40%;
+        background-color: black;
+        font-family: FiraCode-Regular;
+        color: white;
+        padding-top: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-side-column{
+        width: 26rem;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .email-tag{
+        display: none;
+    }
+    
+    #right-side-content-mobile {
+        display: none;
+    }
+    
+    .main-title {
+        font-family: FiraSans-Regular;
+        font-size: 4rem;
+        font-weight: normal;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+    
+    .main-subtitle {
+        font-family: FiraSans-Light;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-right: 180px;
+    }
+    
+    #left-side-content {
+        order: 1;
+        width: 60%;
+        background: linear-gradient(141.23deg, #E2FFE9 9.9%, rgba(255, 255, 255, 0) 49.48%);
+        padding-left: 144px;
+        padding-top: 64px;
+        padding-right: 16px;
+        padding-bottom: 64px;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+    }
+    
+    .custom-divider {
+        width: 100%;
+        height: 1px;
+        background-color: #E4E4E4;
+    }
+
+    .left-content-section-title {
+        font-family: FiraSans-Medium;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .left-content-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-right: 180px;
+    }
+
+    .experience-title{
+        font-family: FiraSans-Regular;
+        font-weight: normal;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+    }
+
+    .experience-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        
+    }
+    
+    .experience-description {
+        font-family: FiraSans-Light;
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+
+    #right-side-content-mobile {
+        display: none;
+    }
+
+    #toggle-info-button  {
+        display: none;
+    }
+
+    .right-side-content ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li::before {
+        content: attr(data-icon);
+        /* Make slightly larger than the li font-size
+        but smaller than the li gap */
+        font-size: 1.25em;
+    }
+
+    .right-side-section-title {
+        font-family: FiraCode-Medium;
+        font-weight: normal;
+        font-size: 1.5rem;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+
+    .right-side-section-content {
+        font-family: FiraCode-Light;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+
+    .project-title {
+        font-family: FiraSans-Regular;
+        font-weight: normal;
+        font-size: 1.5rem;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    .link-arrow{
+        font-family: FiraCode-Medium;
+        font-weight: normal;
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    .project-section {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .project-progress-tag {
+        font-family: FiraSans-Regular;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+
+    .project-title-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .project-description {
+        font-family: FiraSans-Regular;
+        font-weight: normal;
+        font-size: 1rem;
+    }
+
+    .project-tech-used {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    
+    .tech-tag {
+        font-family: FiraSans-Regular;
+        font-weight: normal;
+        font-size: 1rem;
+        height: 2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        border-radius: calc(2rem/2);
+    }
+
+    .swift-color {
+        background-color: blue;
+    }
+
+    .swiftUI-color {
+        background-color: red;
+    }
+
+    /* * {
+        outline: 1px solid #f00 !important;
+      } */
+}
